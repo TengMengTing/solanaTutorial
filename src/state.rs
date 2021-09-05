@@ -1,6 +1,6 @@
 use solana_program::{
-    program_pack::{IsInitialized, Pack, Sealed},
     program_error::ProgramError,
+    program_pack::{IsInitialized, Pack, Sealed},
     pubkey::Pubkey,
 };
 

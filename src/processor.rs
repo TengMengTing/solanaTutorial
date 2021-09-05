@@ -3,10 +3,10 @@ use solana_program::{
     entrypoint::ProgramResult,
     program_error::ProgramError,
     msg,
+    program::invoke
     pubkey::Pubkey,
     program_pack::{Pack, IsInitialized},
     sysvar::{rent::Rent, Sysvar},
-    program::invoke
 };
 
 use crate::{instruction::EscrowInstruction, error::EscrowError, state::Escrow};

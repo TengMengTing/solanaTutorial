@@ -1,5 +1,5 @@
-use std::convert::TryInto;
 use solana_program::program_error::ProgramError;
+use std::convert::TryInto;
 
 use crate::error::EscrowError::InvalidInstruction;
 
