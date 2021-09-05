@@ -1,5 +1,7 @@
 use thiserror:: Error;
 
+use crate::{instruction::EscrowInstruction, error::EscrowError};
+
 use solana_program::program_error::ProgramError;
 
 #[derive(Error, Debug, Copy, Clone)]
